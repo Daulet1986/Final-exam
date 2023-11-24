@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0; /* Remove default body margin */
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set carousel container height to full viewport height */
+}
+
+.carousel {
+  max-width: 100%; /* Set maximum width for the carousel */
+}
+.carousel-inner img {
+  margin: auto;
+}
+.hidden {
+  display: none;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #b3d4fc;
+}
+
+#result-text {
+  font-weight: bold;
+}
